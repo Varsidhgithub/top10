@@ -1,0 +1,71 @@
+@import url("bootstrap/dist/css/bootstrap.min.css");
+* {
+  font-family: "Lucida Console" sans-serif;
+}
+p {
+  margin-bottom: 0px;
+}
+#pr_id_1_header_0,
+#pr_id_1_header_1,
+#pr_id_1_header_2,
+#pr_id_1_header_3,
+#pr_id_1_header_4,
+#pr_id_1_header_5,
+#pr_id_1_header_6,
+#pr_id_1_header_7,
+#pr_id_1_header_8,
+#pr_id_1_header_9 {
+  padding: 0 !important;
+  padding-left: 15px !important;
+}
+.p-accordion-header-link :hover {
+  background: none !important;
+}
+.p-accordion
+  .p-accordion-header:not(.p-disabled).p-highlight:hover
+  .p-accordion-header-link
+  :hover {
+  border-color: #dee2e6;
+  color: #343a40;
+}
+.link {
+  text-decoration: none;
+    color: black;
+}
+.link:hover {
+  color: red;
+  transition: 1s;
+}
+.page-link {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa !important;
+}
+.page-link:hover {
+  background-color: #f8f9fa !important;
+  border: 1px solid #f8f9fa !important;
+}
+.categorycontent5 p {
+  font-size: 17px;
+  color: #999999;
+ }
+.categorycontent3:hover {
+  color: #999999 !important;
+}
+.categorycontent4 {
+  margin: 0;
+  padding: 0;
+  letter-spacing: -0.1px;
+  color: #2d2d2d;
+  font-weight: 700;
+  margin-bottom: 10px;
+  transition: all 0.3s;
+}
+@media (max-width: 768px) {
+  .categorycontent4 {
+    padding-top: 12px;
+  }
+  .social-media {
+    justify-content: center;
+    display: flex;
+  }
+}
